@@ -14,8 +14,8 @@ const About = () => {
      >
          <SectionHeading>Personal Saga</SectionHeading>
         <p className="mb-3 text-xl font-medium font-mono">
-        Hi, I'm Muhammad Umer, a developer exploring the wonders of coding. Proficient in Python, JavaScript, and TypeScript, I love building with Next.js. Recently, I've been diving into the world of generative AI, finding joy in its intricacies.</p>
-        <p className="mt-4 text-xl font-medium font-mono">Beyond the screen, I'm just a teenager with a curious mind, always eager to learn and create. My portfolio is a humble showcase of my projects. Take a look, and let's chat about tech, coding, or anything else that sparks your interest!</p>
+        {`Hi, I'm Muhammad Umer, a developer exploring the wonders of coding. Proficient in Python, JavaScript, and TypeScript, I love building with Next.js. Recently, I've been diving into the world of generative AI, finding joy in its intricacies.`}</p>
+        <p className="mt-4 text-xl font-medium font-mono">{`Beyond the screen, I'm just a teenager with a curious mind, always eager to learn and create. My portfolio is a humble showcase of my projects. Take a look, and let's chat about tech, coding, or anything else that sparks your interest!`}</p>
       
 
     </motion.section>

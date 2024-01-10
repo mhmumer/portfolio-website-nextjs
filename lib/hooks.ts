@@ -19,3 +19,8 @@ export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
     ref,
   };
 }
+
+// git add .
+// git commit - m "comment"
+// git push origin main
+ 
