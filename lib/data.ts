@@ -82,9 +82,9 @@ export const skillsData = [
   "Tailwind",
   "MongoDB",
   "Python",
-  "numpy",
-  "pandas",
-  "streamlit",
-  
+  "Numpy",
+  "Pandas",
+  "Streamlit",
+  "Shopify",
   
 ] as const;

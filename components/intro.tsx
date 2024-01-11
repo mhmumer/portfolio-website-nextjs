@@ -57,14 +57,14 @@ export default function Intro() {
            </Link>
            <a href="/cv.png" download={true} className='bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-50 active:scale-105 transition group border border-black/10'>Download CV <HiDownload className="group-hover:translate-y-1 transition opacity-70"/></a>
            <a
-          className="bg-white p-4 text-gray-900 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
+          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 "
           href="https://www.linkedin.com/in/muhammad-umer-siraj-3a0b7226a/"
           target="_blank"
         >
           <BsLinkedin />
            </a>
            <a
-          className="bg-white p-4 text-gray-900 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 "
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
           href="https://github.com/mhmumer"
           target="_blank"
         >
