@@ -38,7 +38,7 @@ export const projectsData = [
   {
     title: "Portfolio Website",
     description:
-      "A portfolio website built with react & Next.js, Typescript, Tailwind CSS, Framer Motion, React Emails & Resend, Vercel Hosting.",
+      "Portfolio website built with react & Next.js, Typescript, Tailwind CSS, Framer Motion, React Emails & Resend, Vercel Hosting.",
     tags: ["Next.js","Typescript","Tailwind CSS"],
     imageUrl: portfolioImg,
     link:"#"
@@ -46,7 +46,7 @@ export const projectsData = [
   {
     title: "BiryaniMan",
     description:
-      "A responsive frontend website developed using HTML, CSS and JavaScript and Animations",
+      "BiryaniMan is a responsive frontend website developed using HTML, CSS and JavaScript and Animations",
     tags: ["HTML","CSS","JS"],
     imageUrl: biryanimanimg,
     link:"https://mhmumer.github.io/biryaniman/"
@@ -62,7 +62,7 @@ export const projectsData = [
   {
     title: "Essay Writer Bot",
     description:
-      "Essay Writer Bot is a generative AI webapp made using python, Streamlit, Langcahin and OpenAI API.",
+      "Essay Writer Bot is a generative AI webapp made using python, Streamlit, Langcahin and OpenAI API. It can generate essays on any topic you want.",
     tags: ["Python","Streamlit","OpenAI"],
     imageUrl: essaywriterbot,
     link:"https://essay-writer.streamlit.app/"

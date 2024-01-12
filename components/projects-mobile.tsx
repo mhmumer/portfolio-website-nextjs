@@ -38,17 +38,17 @@ function ProjectMob({
 
    return <>
       
-   <section ref={ref} className='bg-gray-100 sm:hidden antialiased text-gray-900 wrapper'>
+   <section ref={ref} className='  sm:hidden antialiased text-gray-900 wrapper'>
       
       <Image src={imageUrl} alt=" random imgee" className="w-full object-cover object-center rounded-lg shadow-md"/>
       
-      <div className="relative px-4 -mt-16  ">
-   <div className="bg-white p-6 rounded-lg shadow-lg">
+      <div className="relative px-4">
+   <div className="bg-white p-6 -mt-14 rounded-lg shadow-lg">
     
     
-    <h4 className="mt-1 text-xl font-semibold uppercase leading-tight truncate">{title}</h4>
+    <h4 className="mt-3 text-xl font-semibold uppercase leading-tight truncate">{title}</h4>
  
-  <p className="mt-1">
+  <p className="mt-2">
     {description} <br /><Link href={link} className='text-blue-600  hover:text-black/[0.7] hover:underline  '>Check it out</Link>
   </p>
        
