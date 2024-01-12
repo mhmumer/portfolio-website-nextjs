@@ -6,6 +6,7 @@ import biryanimanimg from "@/public/biryaniman.png";
 import memorychatbotImg from "@/public/memorychatbot.png";
 import portfolioImg from "@/public/portfolio.png";
 import essaywriterbot from "@/public/essaywriterbot.png"
+import shopify from "@/public/shopify.png"
 import { link } from "fs";
 
 export const links = [
@@ -66,7 +67,15 @@ export const projectsData = [
     tags: ["Python","Streamlit","OpenAI"],
     imageUrl: essaywriterbot,
     link:"https://essay-writer.streamlit.app/"
-  }
+  },
+  {
+    title: "HimLeather",
+    description:
+      "An ecommerce store made using Shopify for leather products, HimLeather",
+    tags: ["Shopify"],
+    imageUrl: shopify,
+    link:"https://himleather.com/"
+  },
   
 ] as const;
 
