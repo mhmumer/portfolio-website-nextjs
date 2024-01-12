@@ -46,7 +46,7 @@ export const projectsData = [
   {
     title: "BiryaniMan",
     description:
-      "A frontend website developed using HTML, CSS and JS.",
+      "A responsive frontend website developed using HTML, CSS and JavaScript and Animations",
     tags: ["HTML","CSS","JS"],
     imageUrl: biryanimanimg,
     link:"https://mhmumer.github.io/biryaniman/"
@@ -54,7 +54,7 @@ export const projectsData = [
   {
     title: "Memory ChatBot",
     description:
-      "A generative AI web app designed with streamlit and powered using OpenAI API",
+      "Memory ChatBot is a generative AI webapp made using python, Streamlit, Langcahin and OpenAI API.",
     tags: ["Python","Streamlit","OpenAI"],
     imageUrl: memorychatbotImg,
     link:""
@@ -62,7 +62,7 @@ export const projectsData = [
   {
     title: "Essay Writer Bot",
     description:
-      "A public web app for generating essays on topics designed with streamlit and powered using OpenAI API.",
+      "Essay Writer Bot is a generative AI webapp made using python, Streamlit, Langcahin and OpenAI API.",
     tags: ["Python","Streamlit","OpenAI"],
     imageUrl: essaywriterbot,
     link:"https://essay-writer.streamlit.app/"
@@ -86,5 +86,31 @@ export const skillsData = [
   "Pandas",
   "Streamlit",
   "Shopify",
+  
+] as const;
+export const educationData = [
+  {
+    title: "Data Analysis with Python",
+    description:
+      "Data Analysis with Python course authorized by IBM and offered through Coursera",
+    link: "https://coursera.org/verify/TN727YUY3XQA",
+    date: "2023",
+  },
+  {
+    title: "Python for Data Science, AI & Development",
+    
+    description:
+      "Python for Data Science, AI & Development course authorized by IBM and offered through Coursera",
+    link: "https://coursera.org/verify/KAY7J2ZEXAUQ",
+    date: "2023",
+  },
+  {
+    title: "AI, Metaverse and Web 3.0 Developer",
+    
+    description:
+      "",
+    link: "#",
+    date: "Ongoing",
+  },
   
 ] as const;

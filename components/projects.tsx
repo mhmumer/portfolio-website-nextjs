@@ -8,7 +8,7 @@ import { motion, useScroll } from 'framer-motion'
 
 const Projects = () => {
   return (
-     <section id="projects" className='scroll-mt-28 mb-28'>
+     <section id="projects" className='scroll-mt-28  mb-28'>
         <SectionHeading>Projects</SectionHeading>
         <div>
            {
@@ -38,7 +38,7 @@ function Project({
       target: ref,
       offset: ["0 1", "1.33 1"]
    })
-   return <motion.section  ref={ref} style={{scale:scrollYProgress, opacity:scrollYProgress}} className='bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20 group mb-3 sm:mb-8 last:mb-0'>
+   return <motion.section  ref={ref} style={{scale:scrollYProgress, opacity:scrollYProgress}} className='bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 sm:block hidden dark:text-white dark:bg-white/10 dark:hover:bg-white/20 group mb-3 sm:mb-8 last:mb-0'>
       <div className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]'>
       <h3 className='text-2xl font-semibold text-gray-950'>{title}</h3>
       <p className='mt-2 leading-relaxed text-gray-700'>{description} <br /> <Link href={link} className='text-blue-600  hover:text-black/[0.7] hover:underline  '>Check it out</Link></p>
@@ -48,7 +48,7 @@ function Project({
          ))}
          </ul>
          
-         <Image src={imageUrl} width={1000} height={1000} alt="Project I worked on" quality={95} className='absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+         <Image src={imageUrl} width={1000} height={1000} alt="Project I worked on" quality={95} className='absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]
         group-hover:-translate-x-3

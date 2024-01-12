@@ -5,6 +5,8 @@ import Project from "@/components/projects";
 import Skills from "@/components/skills";
 import { Contact } from "@/components/contact";
 import Footer from "@/components/footer";
+import Education from "@/components/education";
+import ProjectsMob from "@/components/projects-mobile";
 
 export default function Home() {
   return (
@@ -13,7 +15,9 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Project />
+      <ProjectsMob/>
       <Skills />
+      <Education/>
       <Contact />
       <Footer />
       
