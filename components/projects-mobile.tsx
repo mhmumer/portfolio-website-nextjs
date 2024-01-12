@@ -38,26 +38,19 @@ function ProjectMob({
 
    return <>
       
-   <section ref={ref} className='  sm:hidden antialiased text-gray-900 wrapper'>
-      
-      <Image src={imageUrl} alt=" random imgee" className="w-full object-cover object-center rounded-lg shadow-md"/>
-      
-      <div className="relative px-4">
-   <div className="bg-white p-6 -mt-14 rounded-lg shadow-lg">
-    
-    
-    <h4 className="mt-3 text-xl font-semibold uppercase leading-tight truncate">{title}</h4>
- 
-  <p className="mt-2">
-    {description} <br /><Link href={link} className='text-blue-600  hover:text-black/[0.7] hover:underline  '>Check it out</Link>
-  </p>
-       
-      
-    
+   <section ref={ref} className='max-w-sm sm:hidden rounded overflow-hidden mt-8 shadow-lg top:mt-0'>
+       <Image className="w-full" src={imageUrl} alt="project"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">{title}</div>
+    <p className="text-gray-700 text-base">
+      {description}
+    </p>
   </div>
- </div>
-      
-      
+         <div className="px-6 pt-4 pb-2">
+                     {tags.map((tag, index) => (
+    <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tag}</span>
+    ))}
+  </div>
    </section>
    </>
 }
