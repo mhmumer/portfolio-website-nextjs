@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import biryanimanimg from "@/public/biryaniman.png";
+import Blog from "@/public/blogweb.png";
 import memorychatbotImg from "@/public/memorychatbot.png";
 import portfolioImg from "@/public/portfolio.png";
 import essaywriterbot from "@/public/essaywriterbot.png"
@@ -43,6 +44,14 @@ export const projectsData = [
     tags: ["Next.js","Typescript","Tailwind CSS"],
     imageUrl: portfolioImg,
     link:"#"
+  },
+  {
+    title: "Blog Website",
+    description:
+      "Blog website built with react & Next.js (App Router & Sever Actions), Typescript, Tailwind CSS, Sanity, shadcn/ui, Vercel Hosting.",
+    tags: ["Next.js","Typescript","Tailwind CSS", "Sanity"],
+    imageUrl: Blog,
+    link:"https://mhmumer-blog.vercel.app/"
   },
   {
     title: "BiryaniMan",
