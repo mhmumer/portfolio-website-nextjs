@@ -53,9 +53,21 @@ export default function Intro() {
           delay: 0.1,
         }}
         >
-           <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'>Contact me here <BsArrowRight className="group-hover:translate-x-3 transition opacity-70"/>{" "}
-           </Link>
-           <a href="/cv.png" download={true} className='bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-50 active:scale-105 transition group border border-black/10'>Download CV <HiDownload className="group-hover:translate-y-1 transition opacity-70"/></a>
+           <Link
+          href="#contact"
+          className="group bg-gray-900 text-white  px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
+        >
+          Contact me here{" "}
+          <BsArrowRight className="group-hover:translate-x-3 transition opacity-70" />{" "}
+        </Link>
+           <a
+          href="/cv.png"
+          download={true}
+          className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-50 active:scale-105 transition group border border-black/10"
+        >
+          Download CV{" "}
+          <HiDownload className="group-hover:translate-y-1 transition opacity-70" />
+        </a>
            <div className='flex space-x-2'>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 "
