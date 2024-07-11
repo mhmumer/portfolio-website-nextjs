@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import biryanimanimg from "@/public/biryaniman.png";
-import MHMTech from "@/public/MHMTech.PNG";
+import MHMTech from "@/public/MHMTech.png";
 import Blog from "@/public/blogweb.png";
 import memorychatbotImg from "@/public/memorychatbot.png";
 import portfolioImg from "@/public/portfolio.png";
