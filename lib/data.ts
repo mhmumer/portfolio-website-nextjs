@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import biryanimanimg from "@/public/biryaniman.png";
+import MHMTech from "@/public/MHMTech.PNG";
 import Blog from "@/public/blogweb.png";
 import memorychatbotImg from "@/public/memorychatbot.png";
 import portfolioImg from "@/public/portfolio.png";
@@ -41,9 +42,17 @@ export const projectsData = [
     title: "Portfolio Website",
     description:
       "Portfolio website built with react & Next.js, Typescript, Tailwind CSS, Framer Motion, React Emails & Resend, Vercel Hosting.",
-    tags: ["Next.js","Typescript","Tailwind CSS"],
+    tags: ["Next.js","Typescript","Tailwind CSS", "Framer Motion"],
     imageUrl: portfolioImg,
     link:"#"
+  },
+  {
+    title: "Dark Landing Page",
+    description:
+      "Portfolio website built with react & Next.js, Typescript, Tailwind CSS, Framer Motion, Vercel Hosting.",
+    tags: ["Next.js","Typescript","Tailwind CSS", "Framer Motion"],
+    imageUrl: MHMTech,
+    link:"https://portfolio-mhmumer.vercel.app/"
   },
   {
     title: "Blog Website",
